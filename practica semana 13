@@ -1,0 +1,21 @@
+Algoritmo fecha_de_navidad //ejercicio 2//
+	//autor: SyntiaG08//
+	Definir  d, m, a Como Entero
+	Definir nonbremes Como Caracter
+	Escribir " escriba el dia "
+	leer d 
+	escribir " escriba el mes "
+	leer m
+	Escribir " escriba el año "
+	Leer a 
+	si d<1 o d>=32 y d=24 Entonces
+		Escribir " es navidad "
+	sino  
+		escribir " no es navidad "
+	FinSi
+	si m<1 o m>=12 y m=12 Entonces
+		Escribir " es navidad "
+	sino  
+		escribir " no es navidad "
+	FinSi
+FinAlgoritmo
