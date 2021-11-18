@@ -19,3 +19,94 @@ Algoritmo fecha_de_navidad //ejercicio 2//
 		escribir " no es navidad "
 	FinSi
 FinAlgoritmo
+
+Algoritmo ejercicio_3 //ejercicio 3//
+	//autor: SyntiaG08//
+	Definir n1, n2, n3 Como Real
+	Escribir " escriba n1 "
+	leer n1
+	escribir " escriba n2 "
+	leer n2 
+	escribir " escriba n3 "
+	leer n3 
+	si n1=n2 y n2=n3 Entonces
+		Imprimir (n1+n2)*n3
+		sino 
+			si n1<n2 y n1<n3 Entonces
+				 Mostrar "el menor número "  n1
+			 finsi
+			 si n2<n1 y n2<n3 Entonces
+				 Mostrar "el menor número "  n2
+			 finsi
+			 si n3<n1 y n3<n2 Entonces
+				 Mostrar "el menor número "  n3
+			 finsi
+			 
+		FinSi
+FinAlgoritmo 
+
+Algoritmo números_menores_de_10 //ejercicio 4//
+	//autor:SyntiaG08//
+	Definir n1, n2, n3 Como Entero
+	Escribir " escriba n1 "
+	leer n1
+	escribir " escriba n2 "
+	leer n2
+	Escribir " escriba n3 "
+	leer n3 
+	si n1<10 y n2<10 y n3<10 Entonces
+		Imprimir " Todos los números son menores a diez "
+	sino 
+		Imprimir " Todos los números son mayores a diez "
+	FinSi
+	
+FinAlgoritmo
+
+
+Algoritmo cuadrantes //ejercicio5//
+	//autor:SyntiaG08//
+		definir x,h como real;
+		escribir "ingresa el valor x";
+		leer x;
+		escribir "ingresa el valor y";
+		leer h;
+		si x > 0 y h > 0 Entonces
+			escribir "esta en el primer cuadrante";
+		SiNo
+			si x < 0 y h > 0 Entonces
+				escribir "esta en el segundo cuadrante";
+			SiNo
+				si x < 0 y h < 0 Entonces
+					escribir "esta en el tercer cuadrante";
+				SiNo
+					si x > 0 y h < 0 Entonces
+						escribir "esta en el cuarto cuadrante";
+					SiNo
+						escribir "esta en el origen";
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+
+FinAlgoritmo
+
+
+Algoritmo sueldo_antiguedad //ejercicio 6//
+	//autor: SyntiaG08//
+	Definir s, a Como Entero
+	Escribir " escriba el monto de sueldo "
+	leer s
+	Escribir " escriba la antigüedad "
+	leer a
+	si s<900 y a>=10 entonces 
+		Imprimir " tendra un aumento del 20 % "
+		Imprimir 900+120
+	FinSi
+	si s<900 y a<10 entonces 
+		Imprimir " tendra un aumento del 5 % "
+		Imprimir 900+45
+	FinSi
+	si s<=900 
+		leer s
+	FinSi
+FinAlgoritmo
